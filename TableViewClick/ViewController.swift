@@ -27,16 +27,22 @@ class ViewController: UIViewController {
         tableView.dataSource = self
     }
 
-
 }
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return foos.count
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = storyboard?.instantiateViewController(withIdentifier: "itemView") as! ViewControllerItem
+        vc.foo = foos[indexPath.row]
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let customCell = tableView.dequeueReusableCell(withIdentifier: "myCell",for:indexPath) as! TableViewCellCustom
-        customCell.button.setTitle("Buy", for: .normal)
+        //customCell.button.setTitle("Buy", for: .normal)
         customCell.uiImage.image = foos[indexPath.row].imagen
         customCell.uiImage.contentMode = .scaleAspectFit
         customCell.label.text = foos[indexPath.row].titulo
@@ -47,4 +53,3 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         return "Numeros"
     }
 }
-

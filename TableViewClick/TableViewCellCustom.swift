@@ -12,6 +12,5 @@ class TableViewCellCustom: UITableViewCell {
     
     @IBOutlet weak var uiImage: UIImageView!
     @IBOutlet weak var label: UILabel!
-    @IBOutlet weak var button: UIButton!
     
 }
