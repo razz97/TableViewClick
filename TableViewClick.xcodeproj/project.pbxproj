@@ -14,6 +14,7 @@
 		020D620921EFB58800EB2AA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 020D620721EFB58800EB2AA6 /* LaunchScreen.storyboard */; };
 		020D621421EFB58800EB2AA6 /* TableViewClickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020D621321EFB58800EB2AA6 /* TableViewClickTests.swift */; };
 		020D621F21EFB58800EB2AA6 /* TableViewClickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020D621E21EFB58800EB2AA6 /* TableViewClickUITests.swift */; };
+		020DFF0221F8E27500182CD8 /* ViewControllerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020DFF0121F8E27500182CD8 /* ViewControllerItem.swift */; };
 		022C548521F247250096A92F /* TableViewCellCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022C548421F247250096A92F /* TableViewCellCustom.swift */; };
 		022C548721F24DAF0096A92F /* Foo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022C548621F24DAF0096A92F /* Foo.swift */; };
 /* End PBXBuildFile section */
@@ -49,6 +50,7 @@
 		020D621A21EFB58800EB2AA6 /* TableViewClickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewClickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		020D621E21EFB58800EB2AA6 /* TableViewClickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewClickUITests.swift; sourceTree = "<group>"; };
 		020D622021EFB58800EB2AA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		020DFF0121F8E27500182CD8 /* ViewControllerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerItem.swift; sourceTree = "<group>"; };
 		022C548421F247250096A92F /* TableViewCellCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellCustom.swift; sourceTree = "<group>"; };
 		022C548621F24DAF0096A92F /* Foo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,6 +111,7 @@
 				020D620A21EFB58800EB2AA6 /* Info.plist */,
 				022C548421F247250096A92F /* TableViewCellCustom.swift */,
 				022C548621F24DAF0096A92F /* Foo.swift */,
+				020DFF0121F8E27500182CD8 /* ViewControllerItem.swift */,
 			);
 			path = TableViewClick;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				022C548721F24DAF0096A92F /* Foo.swift in Sources */,
+				020DFF0221F8E27500182CD8 /* ViewControllerItem.swift in Sources */,
 				020D620121EFB58600EB2AA6 /* ViewController.swift in Sources */,
 				020D61FF21EFB58600EB2AA6 /* AppDelegate.swift in Sources */,
 				022C548521F247250096A92F /* TableViewCellCustom.swift in Sources */,
